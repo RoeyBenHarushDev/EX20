@@ -7,3 +7,38 @@
 .body {
     font-family: 'Roboto', sans-serif;
 }
+.navbar-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    text-align: right;
+}
+
+.navbar {
+    background-color: aliceblue;
+    padding: 0;
+
+}
+
+.navbar-brand {
+    height: 40px;
+    padding-left: 20px;
+
+}
+
+
+.hero {
+    background: white url(images/hero2.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 90px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    color: rgb(11, 7, 43);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
